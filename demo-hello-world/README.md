@@ -22,7 +22,7 @@ curl http://localhost:8080/demo/hello
 
 ## Notable Source Files
 
-### build.gradle
+### [build.gradle](build.gradle)
 ```groovy
 plugins {
     id 'java'
@@ -60,7 +60,7 @@ tasks.named('test') {
 
 ```
 
-### DemoHelloWorldApplication.java
+### [DemoHelloWorldApplication.java](src/main/java/com/github/imtiazea/helloworld/DemoHelloWorldApplication.java)
 
 ```java
 @SpringBootApplication
@@ -73,7 +73,7 @@ public class DemoHelloWorldApplication {
 }
 ```
 
-### GreetingController.java
+### [GreetingController.java](src/main/java/com/github/imtiazea/helloworld/GreetingController.java)
 
 ```java
 @RestController

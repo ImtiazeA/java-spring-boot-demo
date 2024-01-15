@@ -38,7 +38,7 @@ curl http://localhost:8090/demo/hello
 
 ## Notable Source Files
 
-### application.yml
+### [application.yml](src/main/resources/application.yml)
 ```yaml
 server:
   port: 8090
@@ -46,7 +46,7 @@ server:
     context-path: /demo
 ```
 
-### build.gradle
+### [build.gradle](build.gradle)
 
 ```groovy
 plugins {
@@ -76,7 +76,7 @@ tasks.named('test') {
 }
 ```
 
-### DemoServerPortPropFileApplication.java
+### [DemoServerPortYmlFileApplication.java](src/main/java/com/github/imtiazea/jsbd/demoserverportymlfile/DemoServerPortYmlFileApplication.java)
 
 ```java
 @SpringBootApplication
@@ -89,7 +89,7 @@ public class DemoServerPortYmlFileApplication {
 }
 ```
 
-### GreetingController.java
+### [GreetingController.java](src/main/java/com/github/imtiazea/jsbd/demoserverportymlfile/GreetingController.java)
 
 ```java
 @RestController

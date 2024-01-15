@@ -38,13 +38,14 @@ curl http://localhost:8090/demo/hello
 
 ## Notable Source Files
 
-### application.properties
+### [application.properties](src/main/resources/application.properties)
+
 ```properties
 server.port=8090
 server.servlet.context-path=/demo
 ```
 
-### build.gradle
+### [build.gradle](build.gradle)
 
 ```groovy
 plugins {
@@ -74,7 +75,7 @@ tasks.named('test') {
 }
 ```
 
-### DemoServerPortPropFileApplication.java
+### [DemoServerPortPropFileApplication.java](src/main/java/com/github/imtiazea/jsbd/demoserverportpropfile/DemoServerPortPropFileApplication.java)
 
 ```java
 @SpringBootApplication
@@ -87,7 +88,7 @@ public class DemoServerPortPropFileApplication {
 }
 ```
 
-### GreetingController.java
+### [GreetingController.java](src/main/java/com/github/imtiazea/jsbd/demoserverportpropfile/GreetingController.java)
 
 ```java
 @RestController

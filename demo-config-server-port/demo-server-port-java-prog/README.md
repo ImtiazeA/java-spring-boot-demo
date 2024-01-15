@@ -38,7 +38,7 @@ curl http://localhost:8090/demo/hello
 
 ## Notable Source Files
 
-### application.yml
+### [application.yml](src/main/resources/application.yml)
 
 ```yaml
 server:
